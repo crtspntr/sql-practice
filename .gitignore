@@ -1,0 +1,25 @@
+# Database files
+*.sql~
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.env
+.env.local
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Node modules (if using Node.js tools)
+node_modules/
+
+# MySQL workbench
+*.mwb.bak
