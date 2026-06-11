@@ -7,6 +7,10 @@
 
 -- 1. COUNT - COUNT ROWS
 SELECT COUNT(*) FROM film;  -- Total films
+SELECT COUNT(*) FROM actor; -- total actor cp
+
+SELECT COUNT(*) FROM actor_backup;
+SHOW TABLES; -- getting tables cp, created docs filee for tis docs/database-schema.md
 
 -- Count specific column (excludes NULL)
 SELECT COUNT(email) FROM customer;  -- Customers with email addresses
